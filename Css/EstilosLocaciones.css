@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+     background: url(../Imagenes/fondorepeat6.png);
+}
+body{
+    position: relative;
+    width:90%;
+    margin:0 auto;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width:100%;
+    margin:0px auto;
+    padding-top:80px;
+}
+.items .destinoVuelos{
+    width:30%;
+    height:400px;
+    margin:30px;
+    background: rgba(255,255,255,.1);
+    transition: .5s;
+    cursor:pointer;
+}
+.items .destinoVuelos span{
+    display: block;
+    font-size:70px;
+    text-align: center;
+    margin:30px;
+    color:#f7f7ff;
+}
+.items .destinoVuelos h2{
+    text-align: center;
+    padding:5px;
+    color:#f7f7ff;
+}
+.items .destinoVuelos p{
+    text-align: center;
+    padding:30px;
+    color:#f7f7ff;
+    font-style: oblique;
+}
+.items .destinoVuelos:hover{
+    background: rgba(255,255,255,.9);
+}
+.items .destinoVuelos:hover span{color:#00001f;}
+.items .destinoVuelos:hover h2{color:#00001f;}
+.items .destinoVuelos:hover p{color:#00001f;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOSS LUGARESSSS*/
+.lugares{
+    position:absolute;
+    width:100%;
+    top:20px;
+    left:150%;
+    transition: 2s;
+}
+.lugares>span{
+    color:white;
+    font-size:40px;
+    margin-left:99%;
+    cursor:pointer;
+}
+.lugares .paises{
+    position: relative;
+    margin-top:20px;
+}
+.lugares .paises:nth-child(2n) .descrip{
+    top:30px;
+    left:30px;
+} 
+.lugares .paises:nth-child(2n)>h2{
+    position: absolute;
+    bottom:20px;
+    left:80%;
+    text-align: center;
+} 
+.lugares .paises>h2{
+    width:200px;
+    position: absolute;
+    bottom:20px;
+    left:30px;
+    font-size:60px;
+    color:white;
+    padding:15px;
+    background: url(../Imagenes/fondorepeat6.png);
+    border-radius:20px;
+    text-align: center;
+}
+.lugares .paises img{
+    width:100%;
+    height:600px;
+}
+.lugares .paises .descrip{
+    position: absolute;
+    top:30px;
+    right:30px;
+}
+.lugares .paises .precio1{
+    width:300px;
+    height:220px;
+    background: rgba(0,0,0,.5);
+    color:white;
+    padding:20px;
+}
+.lugares .paises .precio1 h2 {
+    text-align: center;
+}
+.lugares .paises .precio1 h2 span{
+    margin-right:20px;
+    font-size:40px;
+}
+.lugares .paises .precio1 p{
+    margin:20px auto;
+    font-style: oblique;
+}
+.lugares .paises .precio2{
+      margin-top:10px;
+    top:310px;
+    right:30px;
+    width:300px;
+    height:220px;
+    background: rgba(0,0,0,.7);
+    color:white;
+    padding:20px;
+}
+.lugares .paises .precio2 h2 {
+    text-align: center;
+}
+.lugares .paises .precio2 h2 span{
+    margin-right:20px;
+    font-size:40px;
+}
+.lugares .paises .precio2 p{
+    margin:30px auto;
+    font-style: oblique;
+}
+
+
+/*ESTILOS ESTADIAS*/
+.estadia{
+    position:absolute;
+    width:100%;
+    top:20px;
+    left:-150%;
+    transition: 2s;
+}
+.estadia>span{
+    color:white;
+    font-size:40px;
+    margin-left:99%;
+    cursor:pointer;
+}
+.estadia .hoteles{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.estadia .hoteles img{
+    width:30%;
+    height:400px;
+}
+.estadia .hoteles .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255,255,255,1);
+}
+.estadia .hoteles .titulo h2{
+    text-align: center;
+    color:black;
+    font-size:50px;
+}
+.estadia a{
+    color:black;
+}
+
+.estadia .hoteles .titulo p{
+    display: flex;
+    padding:15px;
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.estadia .hoteles .titulo p span{
+ text-align: center;
+}
+    a{
+        color:white;
+    }

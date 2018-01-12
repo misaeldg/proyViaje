@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Aclonica|Bungee+Inline|Caveat+Brush|Chonburi|Devonshire|Engagement|Flavors|Frijole|Fruktur|Galada|Kavoon|Lemon|Lily+Script+One|Mr+Dafoe|Piedra|Press+Start+2P|Ranchers|Romanesco|Rozha+One|Stardos+Stencil|Hammersmith+One|Days+One';
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+body{
+    background: url(../Imagenes/fondorepeat8.png);
+    z-index: 1; 
+    position: relative;
+}
+h2{
+    text-align: center;
+    margin:0px ;
+    font-family:Aclonica;
+    font-size:50px;
+    padding-top:60px;
+    margin-bottom:40px;
+/*    color:#006699;*/
+    color:black;
+/*    color:red;*/
+}
+section{
+    margin:70px 0; 
+}
+.galeria{
+    width:1100px;
+    height:600px;
+    margin:0px auto ;
+    margin-bottom:0;
+    display:flex;
+    padding:0px;
+    z-index: 600;
+    border-bottom:20px solid white;
+}
+
+.galeria .gcolum1{
+    width:40%;
+    height:600px;
+}
+
+.galeria .gcolum1 .articlelarge{
+    width:100%;
+    height:75%;
+    
+}
+.galeria .gcolum1 .articlepeq{
+    width:100%;
+    height:25%;
+    
+}
+.galeria .gcolum2{
+    width:60%;
+    height:600px;
+    
+}
+
+.galeria .gcolum2 .gfil1{
+    width:100%;
+    height:50%;
+    
+    display: flex;
+}
+
+.galeria .gcolum2 .gfil1 .gfcol1{
+    width:34%;
+    height:100%;
+    
+}
+.galeria .gcolum2 .gfil1 .gfcol1 .articlemed{
+    width:100%;
+    height:100%;
+}
+.galeria .gcolum2 .gfil1 .gfcol2{
+    width:66%;
+    height:100%;
+    
+}
+.galeria .gcolum2 .gfil1 .gfcol2 .articlepeq{
+    width:100%;
+    height:50%;
+    
+}
+.galeria .gcolum2 .gfil2{
+    width:100%;
+    height:50%;
+    
+}
+.galeria .gcolum2 .gfil2 .articlegran{
+    width:100%;
+    height:100%;
+   
+}
+.galeria img{
+    width:100%;
+    height:100%;
+    margin:4px;
+    cursor:pointer;
+    transition: .4s;
+   
+}
+.galeria img:hover{
+    transform: scale(1.2);
+}
+
+/*CAJA DE LIGTH BOX*/
+.lightBox{
+    position: fixed;
+    top:0;
+    left:0px;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    height:100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index:40;
+    display: none;
+}
+#masinfor{
+    position: absolute;
+    top:20px;
+    right:80px;
+    font-size: 20px;
+    background: rgba(0,0,0,0.7);
+}
+.lightBox a span.icon-cross{
+    color:#aa403d;
+    position: absolute;
+    top:20px;
+    right:30px;
+    font-size:35px;
+}
+.lightBox .cajaImagen{
+    width:80%;
+    height:500px;
+    margin:40px auto 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lightBox .cajaImagen img{
+    width:90%;
+    height:100%;
+}
+.lightBox .cajaImagen a{
+    text-decoration: none;
+}
+.lightBox .cajaImagen a span{
+    padding:10px 10px;
+    font-size:40px;
+    color:white;
+    border-radius: 50%;
+}
+.lightBox .cajaImagen .infor{
+    position:absolute;
+    top:0;
+    left:150%;
+    height:100%;
+    width:65%;
+    background: rgba(0,0,0,0.8);
+    color:white;
+    padding:20px 30px;
+    box-sizing: border-box;
+    transition: .6s;
+}
+.lightBox .cajaImagen .infor h3{
+    text-align: center;
+    margin-bottom:10px;
+    font-family: Days One;
+    font-size:25px;
+    color:#7cd07e;
+}
+.lightBox .cajaImagen .infor p{
+    text-align:center;
+    margin-bottom:5px;
+    font-family:Hammersmith One
+}
+
+
+
+
+/*CAJA IMAGENES*/
+.lightBox .cajaImagenes {
+    width:80%;
+    margin:10px auto;
+    display: flex;
+    padding:2px;
+}
+.lightBox .cajaImagenes img{
+    width:25%;
+    height:80px;
+    box-sizing: border-box;
+    transition: .1s;
+   
+}
+.lightBox .cajaImagenes img:nth-child(1){
+     border:4px solid white;
+}

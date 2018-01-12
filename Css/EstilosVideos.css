@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Aclonica|Bungee+Inline|Caveat+Brush|Chonburi|Devonshire|Engagement|Flavors|Frijole|Fruktur|Galada|Kavoon|Lemon|Lily+Script+One|Mr+Dafoe|Piedra|Press+Start+2P|Ranchers|Romanesco|Rozha+One|Stardos+Stencil';
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url(../Imagenes/fondorepet1.png);
+    overflow-y: inherit;
+}
+body>h1{
+    text-align:center;
+    padding:40px 20px;
+    font-size:60px;
+    font-family:Luckiest Guy;
+}
+.cajaVideos{
+    width:95%;
+    margin:80px auto 400px auto;
+}
+.cajaVideos .videos{}
+
+.cajaVideos .videos .titulo{
+    height:60px;
+    cursor :pointer;
+    align-items: center;
+    padding:0;
+    background: #214d68 ;
+    box-shadow: 0 0 0px 0px #214d68 ;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+.cajaVideos .videos .titulo:hover{
+    background: #00534b;
+}
+.cajaVideos .videos .titulo h2{
+    height:100%;
+    text-align:center;
+    width:90%;
+    margin : 0 auto;
+    line-height: 60px;
+    font-weight: bolder;
+    padding:0;
+    color:#dee2e9;
+    letter-spacing: 8px;
+    font-family:Lily Script One;
+}
+.cajaVideos .videos .titulo span{
+    color:white;
+    margin-right:30px;
+    font-size: 20px;
+    transition:1s;
+}
+.cajaVideos .videos .videoYoutube{
+    height:400px;
+    display: none;
+    padding:10px;
+}
+.cajaVideos .videos .videoYoutube .colum1{
+    width:49%;
+    height:100%;
+    float: left;
+}
+.cajaVideos .videos .videoYoutube .colum1 iframe{
+    width:100%;
+    height:100%;
+}
+.cajaVideos .videos .videoYoutube .colum2{
+    width:49%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.cajaVideos .videos .videoYoutube .colum2 iframe{
+    width:100%;
+    height:50%;
+}

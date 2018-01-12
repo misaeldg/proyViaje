@@ -1,0 +1,231 @@
+@import 'https://fonts.googleapis.com/css?family=Aclonica|Bungee+Inline|Caveat+Brush|Chonburi|Devonshire|Engagement|Flavors|Frijole|Fruktur|Galada|Kavoon|Lemon|Lily+Script+One|Mr+Dafoe|Piedra|Press+Start+2P|Ranchers|Romanesco|Rozha+One|Stardos+Stencil|Kalam';
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+*{
+    margin:0px;
+    padding:0px;   
+}
+body{
+    height:100%;
+    background: url(../Imagenes/fondorepeat6.png);
+}
+/*ESTILOS DEL MENU LATERAL*/
+.menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top:50vh;
+    transform: translate(0,-50%);
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    border-bottom: 2px solid white;
+    background: #00201d;
+    box-sizing: border-box;
+    text-align: center;
+}
+.menu a span{
+    font-size:20px;
+    box-sizing: border-box;
+    margin-right:4px;
+}
+.menu>a:hover{
+    color:#363a53;
+    background: #cbcbcb;
+    transition:.7s;   
+}
+
+/*ESTILOSS DE LOS SEVIVIOS*/
+.section{
+    width:80%;
+    margin:80px auto;
+}
+.section article{
+    margin:30px auto;
+}
+.section .locaciones{
+    display: flex;
+    flex-direction: column;
+}
+.section .locaciones .fila1,.fila2{
+    display: flex;
+    height:260px;
+}
+.section .locaciones .fila1 .titulo{
+    width:40%;
+    background: rgba(255,255,255,0.2);
+}
+.section .locaciones .fila1 .titulo p{
+    display: block;
+    margin:100px auto;
+    width:300px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    color:white;
+    font-family:Lemon;
+}
+.section .locaciones .fila1 img{
+    width:60%;
+}
+.section .locaciones .fila2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+}
+.section .locaciones .fila2 p{
+    display: block;
+    padding:20px 5px 5px 5px;
+    text-align:center;
+    font-family:Kalam;
+}
+.section .locaciones .fila2 a{
+    display: block;
+    margin:0 auto;
+    text-decoration: none;
+    padding:20px 20px 0 20px;
+    font-size:30px;
+    color:#691515;
+    font-family: Galada;
+    font-weight: bolder;
+    transition: .2s;
+}
+.section .locaciones .fila2 a:hover{
+    border-bottom: 3px solid #691515;
+}
+
+
+.section .hospedaje,{
+    display: flex;
+    flex-direction: column;
+}
+.section .hospedaje >.fila1,.fila2{
+    display: flex;
+    flex-wrap: nowrap;
+    height:260px;
+}
+.section .hospedaje .fila1 img{
+    width:60%;
+    height:100%;
+}
+.section .hospedaje .fila1 .titulo{
+    display: block;
+    width:40%;
+    background: rgba(255,255,255,0.2);
+}
+.section .hospedaje .fila1 .titulo p{
+    display: block;
+    margin:80px auto;
+    width:300px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color:white;
+    font-weight: bolder;
+    font-family: Lemon;
+}
+.section .hospedaje .fila2 {
+    position: relative;
+}
+.section .hospedaje .fila2 img{
+    width:40%;
+    height:100%;
+}
+.section .hospedaje .fila2 p{
+    padding:35px;
+    background: white;
+    text-align: center;
+    font-family: Kalam;
+}
+.section .hospedaje .fila2 a{
+    position: absolute;
+    bottom:10px;
+    left:320px;
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+}
+
+/*ESTILOS COMENTARIOS*/
+.comentarios{
+    display: flex;
+    flex-direction: column;
+}
+.section .comentarios >.fila1{
+    display: flex;
+    height:260px;
+    flex-wrap: wrap;
+}
+.section .comentarios .fila1 .titulo{
+    width:70%;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section .comentarios .fila1 .titulo h3{
+    text-align: center;
+    font-size:30px;
+    font-family:Galada;
+}
+.section .comentarios .fila1 .titulo p{
+    display: block;
+    padding:0px;
+    width:100%;
+    font-size: 17px;
+    text-align: center;
+    color:black;
+    font-family: Kalam;
+}
+.section .comentarios .fila1 .titulo a{
+    margin-left:350px;
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+}
+.section .comentarios .fila1 img{
+    width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.menu a:nth-child(2):after{
+    content:"Inicio";
+    position: absolute;
+    top:0;
+    left:100%;
+    line-height:40px;
+    height:47px;
+    color:white;
+    padding:8px;
+    background:#021a32;
+}
+.menu a:nth-child(1):hover before{
+   
+}
+*/

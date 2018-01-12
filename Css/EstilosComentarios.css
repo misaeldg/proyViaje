@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Aclonica|Bungee+Inline|Caveat+Brush|Chonburi|Devonshire|Engagement|Flavors|Frijole|Fruktur|Galada|Kavoon|Lemon|Lily+Script+One|Mr+Dafoe|Piedra|Press+Start+2P|Ranchers|Romanesco|Rozha+One|Stardos+Stencil';
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(../Imagenes/fondorepeat4.png);
+}
+h1{
+    text-align: center;
+    font-family: Aclonica;
+    margin:50px auto;
+    color:white;
+}
+.main{
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.cajaG{
+    width:300%;
+    margin:0 auto;
+/*    margin-left: -100%;*/
+    display: flex;
+    flex-direction: row;
+}
+.coment{
+    width:100%; 
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
+    padding:20px;
+}
+.coment h2{
+    text-align: center;
+    padding:15px;
+    color:white;
+}
+.coment p{
+    text-align: center;
+    padding:30px;
+    font-size: 20px;
+    color:white;
+}
+.coment img{
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    margin: 0 auto;
+}
+
+
+/*ESTILOS NUMEROS*/
+.numeros{
+    width:400px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.numeros a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family: Galada;
+    border:1px solid black;
+    box-shadow: 0 0 2px 3px white;
+    padding: 1px 15px;
+}
+.numeros a:nth-child(1){
+    color:#000000;
+    background: white;
+}
